@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+          h1{
+            text-align: center;
+        }
+            .menu{
+            border:1px solid #ccc;
+            border-width:1px 0;
+            list-style:none;
+            margin:0;
+            padding:0;
+            text-align:right;
+             }
+             .menu li{
+            display:inline;
+              }
+             .menu a{
+            display:inline-block;
+            padding:10px;
+            color:blue;
+             }
+             .w1-container{
+                 margin-left: 50px;
+                 margin-top: 50px;
+             }
+             h2{
+                 margin-left: 30px;
+             }
+             .box2{
+                width:1200px;
+                 height:300px;
+                 background:white;
+                 border: solid 3px black;
+                 margin-left: 30px;
+                 padding-left: 20px;
+             }
+             input{
+                 margin-left: 30px;
+             }
+             .w2-container{
+                 margin-top: 50px;
+             }
+             select{
+                 margin-left: 30px;
+             }
+    </Style>
+</head>
+<body>
+    <h1>SISTEM INFORMASI SEMINAR TUGAS AKHIR - SISTA</h1>
+    <nav style="text-align: right;">
+        <ul class="menu">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Jadwal</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    Detail Jadwal
+                </a>
+            </li>
+            <li>
+                <a class="nav-link" href="#">
+                    Daftar Peserta
+                </a>
+            </li>
+        </ul>
+    </nav>
+   <div class="w1-container">
+    <p>Mahasiswa Seminar : Diego Armando (0102002)</p>
+    <p>Judul : Rancang Bangun Aplikasi Seminar Tugas Akhir Berbasis Web Menggunakan MVC Framework</p>
+    <p>Waktu : Senin, 4 Januari 2021, 10:00</p>
+   </div>
+   <h2>Form Peserta Seminar</h2>
+   <div class="box2">
+       <div class="w2-container">
+        <label for="Nim">NIM</label>
+        <label style="margin-left: 20px;" for=":">:</label>
+        <input id="NIM" type="text">
+       </div>
+       <br>
+       <div class="w3-container">
+        <label for="Nama">Nama</label>
+        <label style="margin-left: 12px;" for=":">:</label>
+        <input id="Nama" type="text">
+       </div>
+       <br>
+       <div class="w4-container">
+        <label for="Prodi">Prodi</label>
+        <label style="margin-left: 14px;" for=":">:</label>
+        <select id="Prodi">
+            <option value="">Sistem Informasi</option>
+            <option value="">Teknik Informatika</option>
+        </select>
+       </div>
+       <br>
+       <div title="Program">
+           <label for="Program">Program</label>
+           <label for=":">:</label>
+           <input type="checkbox">
+           <label for="D3">D3</label>
+           <input type="checkbox">
+           <label for="S1 Reguler">S1 Reguler</label>
+           <input type="checkbox" name="" id="">
+           <label for="S1 Fast Track">S1 Fast Track</label>
+           <input type="checkbox">
+           <label for="S2">S2</label>
+       </div>
+      <section>
+          <input style="font-family: sans-serif; font-size: 15px; background: grey; color: white; border: white 3px solid; border-radius: 5px; padding: 12px 20px; margin-top: 10px; margin-left: 0px;" type="submit" name="" id="" value="Daftar">
+      </section>
+   </div>
+</body>
+</html>
