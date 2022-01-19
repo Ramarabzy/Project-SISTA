@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+             h1{
+            text-align: center;
+        }
+            .menu{
+            border:1px solid #ccc;
+            border-width:1px 0;
+            list-style:none;
+            margin:0;
+            padding:0;
+            text-align:right;
+             }
+             .menu li{
+            display:inline;
+              }
+             .menu a{
+            display:inline-block;
+            padding:10px;
+            color:blue;
+             }
+             article{
+                 border-color: black;
+                 border-width: 1cm;
+             }
+            .box1{
+                 width:1200px;
+                 height:300px;
+                 background:white;
+                 border: solid 3px black;
+                 margin-left: 50px;
+                 padding-left: 20px;
+             }
+             input{
+                 font-family: sans-serif;
+                 font-size: 15px;
+                 background: grey;
+                 color: white;
+                 border: white 3px solid;
+                 border-radius: 5px;
+                 padding: 12px 20px;
+                 margin-top: 10px;
+                 margin-left: 50px;
+             }
+    </style>
+</head>
+<body>
+    <h1>SISTEM INFORMASI SEMINAR TUGAS AKHIR - SISTA</h1>
+    <nav style="text-align: right;">
+            <ul class="menu">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Jadwal</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" href="#">
+                        Detail Jadwal
+                    </a>
+                </li>
+            </ul>
+    </nav>
+    <h2>Seminar Proposal</h2>
+  <div class="box1">
+    <article>
+        <p>NIM : 0102002</p>
+        <p>Nama : Diego Armado</p>
+        <p>Prodi : Teknik Informatika</p>
+        <p>Judul : Rancang Bangun Aplikasi Seminar Tugas Akhir Berbasis Web Menggunakan MVC Framework</p>
+        <p>Ruang : Zoom Online</p>
+        <p>Pembimbing : Sirojul Munir S.SI, M KOM</p>
+        <p>Penguji : Ahmad Rio M SI</p>
+        </aside>
+    </article>
+  </div>
+  <input type="submit" value="Daftar Peserta">
+</body>
+</html>
